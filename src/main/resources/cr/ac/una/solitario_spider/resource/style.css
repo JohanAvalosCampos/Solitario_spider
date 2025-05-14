@@ -1,0 +1,267 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    
+    Author     : Joshua y Kevin
+*/
+
+/*******************************************************************************
+/Estilo de la pantalla del juego.*/
+/*******************************************************************************
+*                                                                              *
+* Columnas(VBox)                                                               *
+*                                                                              *
+*******************************************************************************/
+
+
+#columna1{
+    -fx-background-size: 70,480;
+    -fx-translate-y: 20;
+    -fx-translate-x: 10;
+}
+
+#columna2{
+    -fx-background-size: 70,480;
+    -fx-translate-y: 20;
+    -fx-translate-x: 85;
+}
+
+#columna3{
+    -fx-background-size: 70,480;
+    -fx-translate-y: 20;
+    -fx-translate-x: 160;
+}
+
+#columna4{
+    -fx-background-size: 70,480;
+    -fx-translate-y: 20;
+    -fx-translate-x: 235;
+}
+
+#columna5{
+    -fx-background-size: 70,480;
+    -fx-translate-y: 20;
+    -fx-translate-x: 310;
+}
+
+#columna6{
+    -fx-background-size: 70,480;
+    -fx-translate-y: 20;
+    -fx-translate-x: 385;
+   
+}
+
+#columna7{
+    -fx-background-size: 70,480;
+    -fx-translate-y: 20;
+    -fx-translate-x: 460;
+}
+
+#columna8{
+    -fx-background-size: 70,480;
+    -fx-translate-y: 20;
+    -fx-translate-x: 535;
+}
+
+#columna9{
+    -fx-background-size: 70,480;
+    -fx-translate-y: 20;
+    -fx-translate-x: 610;
+}
+
+#columna10{
+    -fx-background-size: 70,480;
+    -fx-translate-y: 20;
+    -fx-translate-x: 685;
+}
+
+/*******************************************************************************
+*                                                                              *
+* labels                                                            *
+*                                                                              *
+*******************************************************************************/
+
+#lblCrono{
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-translate-x: 350;
+    -fx-translate-y: 505;
+}
+
+#lblNuevaPartida{
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+    -fx-translate-x: 25;
+    -fx-translate-y: 560; 
+    
+}
+
+/*******************************************************************************
+*                                                                              *
+* imagenes                                                                     *
+*                                                                              *
+*******************************************************************************/
+
+#imgboton{
+    -fx-translate-x: 684;
+    -fx-translate-y: 482;
+}
+
+#imvRetroceder{
+    -fx-translate-x: 40;
+    -fx-translate-y: 520;
+}
+#carta1{
+    margin-top: -50px;
+}
+
+/*******************************************************************************
+/Estilo de la pantalla de dificultad y palos.*/
+/*******************************************************************************
+*                                                                              *
+* Paneles y contenedores                                                       *
+*                                                                              *
+*******************************************************************************/
+#rood{
+    
+    -fx-background-color: darkslategrey;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-border-width: 5px;
+    -fx-border-color: darkslategrey;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
+#pane{
+    -fx-background-color: darkslategrey;
+
+}
+
+#pane1{
+    -fx-translate-x: 50;
+    -fx-translate-y: 50;
+    -fx-background-color: darkslategrey;
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-border-width: 5px;
+    -fx-border-color: darkslategrey;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+    -fx-pref-height: 305px;
+    -fx-pref-width: 234px;
+}
+/*******************************************************************************
+*                                                                              *
+* Labels                                                          *
+*                                                                              *
+*******************************************************************************/
+.label {
+    -fx-font-size: 20px;
+    -fx-text-fill: white;
+   
+    
+}
+
+#CantPalos {
+    -fx-translate-x: 65;
+    -fx-translate-y: 6;
+}
+#Dificultad {
+    -fx-translate-x: 100;
+    -fx-translate-y: 100;
+}
+
+#lblFondo {
+    -fx-translate-x: 68;
+    -fx-translate-y: 230;  
+}
+
+/*******************************************************************************
+*                                                                              *
+* Radio Button  y Boton                                                         *
+*                                                                              *
+*******************************************************************************/
+
+#botonIngreso{
+    -fx-translate-x: 95;
+    -fx-translate-y: 410; 
+    -fx-font-size: 14px;
+    border-radius: 15px;
+    -fx-font-weight: bold;
+    -fx-text-fill: blue;
+    -fx-content-display: top;
+    -fx-opacity: 0.87;
+    -fx-alignment:CENTER;
+}
+
+.radio-button {
+    -fx-font-size: 15px;
+    -jfx-selected-color: -fx-base-color-focus;
+    -jfx-unselected-color: -fx-base-color-unfocus;
+    -fx-text-fill: white;
+    -fx-translate-x: 50;
+}
+
+#facil {-fx-translate-y: 130;}
+#medio {-fx-translate-y: 160;}
+#dificil {-fx-translate-y: 190;}
+
+/*******************************************************************************
+*                                                                              *
+* Imagenes                                                           *
+*                                                                              *
+*******************************************************************************/
+
+.image-view {
+    -fx-background-radius: 30px;
+    -fx-border-radius: 30px;
+    -fx-border-width: 5px;
+    -fx-border-color: darkslategrey;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
+#fondo1{
+    -fx-translate-x: 50;
+    -fx-translate-y: 270;
+}
+
+#fondo2{
+    -fx-translate-x: 50;
+    -fx-translate-y: 315; 
+}
+
+#fondo3{
+    -fx-translate-x: 50;
+    -fx-translate-y: 360;    
+}
+
+#fondo4{
+    -fx-translate-x: 125;
+    -fx-translate-y: 270;    
+}
+
+#fondo5{
+    -fx-translate-x: 125;
+    -fx-translate-y: 315;   
+}
+
+#fondo6{
+    -fx-translate-x: 125;
+    -fx-translate-y: 360;  
+}
+#fondo7{
+    -fx-translate-x: 200;
+    -fx-translate-y: 270;   
+}
+
+#fondo8{
+    -fx-translate-x: 200;
+    -fx-translate-y: 315; 
+}
+
+#fondo9{
+    -fx-translate-x: 200;
+    -fx-translate-y: 360; 
+}
