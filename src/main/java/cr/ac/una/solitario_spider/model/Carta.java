@@ -26,7 +26,7 @@ public class Carta
 
   
 
-    public Carta(int numero1, String imagen, String simbolo, boolean bocaArriba)
+    public Carta(int numero, String imagen, String simbolo, boolean bocaArriba)
     {
         this.imagen = new Image(imagen);
         this.numero = numero;

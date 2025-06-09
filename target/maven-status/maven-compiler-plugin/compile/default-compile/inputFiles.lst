@@ -2,6 +2,7 @@ C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solit
 C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\Formato.java
 C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\Jugador.java
 C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\Mensaje.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\CartaDto.java
 C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\Mazo.java
 C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\Partida.java
 C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\EstadoPartida.java
@@ -19,7 +20,9 @@ C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solit
 C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\CartaEnJuego.java
 C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\Carta_1.java
 C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\controller\Dificultad_Palos_ViewController.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\EstadoPartidaDto.java
 C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\Movimiento.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\EstadoJuegoDto.java
 C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\LocalDateTimeAdapter.java
 C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\App.java
 C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\controller\InicioViewController.java

@@ -25,7 +25,7 @@ public class Mazo
                 for(int lista=0;lista<8;lista++)
                 {
                     for (int a = 1; a <= 13; a++) {
-                       cartas.add(new Carta(numero, "/cr/ac/una/solitario_spider/resource/cartas/CORAZON/"+a+"-CORAZON-ROJO.png", "corazon", true));
+                       cartas.add(new Carta(a, "/cr/ac/una/solitario_spider/resource/cartas/CORAZON/"+a+"-CORAZON-ROJO.png", "corazon", true));
                     }
                     
                 }
@@ -36,10 +36,10 @@ public class Mazo
                 for(int lista=0;lista<4;lista++)
                 {
                     for (int a = 1; a <= 13; a++) {
-                       cartas.add(new Carta(numero, "/cr/ac/una/solitario_spider/resource/cartas/CORAZON/"+a+"-CORAZON-ROJO.png", "corazon", true));
+                       cartas.add(new Carta(a, "/cr/ac/una/solitario_spider/resource/cartas/CORAZON/"+a+"-CORAZON-ROJO.png", "corazon", true));
                     }
                     for (int x = 1; x <= 13; x++) {
-                       cartas.add(new Carta(numero, "/cr/ac/una/solitario_spider/resource/cartas/PICA/"+x+"-PICA-NEGRA.png", "pica", true));
+                       cartas.add(new Carta(x, "/cr/ac/una/solitario_spider/resource/cartas/PICA/"+x+"-PICA-NEGRA.png", "pica", true));
                     }
                 }
                 break;
@@ -50,16 +50,16 @@ public class Mazo
                 for(int lista=0;lista<2;lista++)
                 {
                     for (int a = 1; a <= 13; a++) {
-                       cartas.add(new Carta(numero, "/cr/ac/una/solitario_spider/resource/cartas/CORAZON/"+a+"-CORAZON-ROJO.png", "corazon", true));
+                       cartas.add(new Carta(a, "/cr/ac/una/solitario_spider/resource/cartas/CORAZON/"+a+"-CORAZON-ROJO.png", "corazon", true));
                    }
                     for (int x = 1; x <= 13; x++) {
-                       cartas.add(new Carta(numero, "/cr/ac/una/solitario_spider/resource/cartas/PICA/"+x+"-PICA-NEGRA.png", "pica", true));
+                       cartas.add(new Carta(x, "/cr/ac/una/solitario_spider/resource/cartas/PICA/"+x+"-PICA-NEGRA.png", "pica", true));
                    }
                      for (int j = 1; j <= 13; j++) {
-                       cartas.add(new Carta(numero, "/cr/ac/una/solitario_spider/resource/cartas/ROMBO/"+j+"-ROMBO-ROJO.png", "rombo", true));
+                       cartas.add(new Carta(j, "/cr/ac/una/solitario_spider/resource/cartas/ROMBO/"+j+"-ROMBO-ROJO.png", "rombo", true));
                    }
                       for (int k = 1; k <= 13; k++) {
-                       cartas.add(new Carta(numero, "/cr/ac/una/solitario_spider/resource/cartas/TREBOL/"+k+"-TREBOL-NEGRO.png", "trebol", true));
+                       cartas.add(new Carta(k, "/cr/ac/una/solitario_spider/resource/cartas/TREBOL/"+k+"-TREBOL-NEGRO.png", "trebol", true));
                    }
                 }
                 break;

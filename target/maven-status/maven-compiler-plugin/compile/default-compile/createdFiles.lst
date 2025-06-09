@@ -1,3 +1,4 @@
+cr\ac\una\solitario_spider\model\EstadoJuegoDto.class
 cr\ac\una\solitario_spider\util\Formato.class
 cr\ac\una\solitario_spider\model\Carta.class
 cr\ac\una\solitario_spider\util\LocalDateTimeAdapter.class
@@ -10,6 +11,7 @@ cr\ac\una\solitario_spider\model\EscaleraCompletada.class
 cr\ac\una\solitario_spider\model\Mazo.class
 cr\ac\una\solitario_spider\controller\Controller$3.class
 cr\ac\una\solitario_spider\util\BindingUtils.class
+cr\ac\una\solitario_spider\model\EstadoPartidaDto.class
 cr\ac\una\solitario_spider\util\AppContext.class
 cr\ac\una\solitario_spider\util\LocalDateAdapter.class
 cr\ac\una\solitario_spider\model\Carta_1.class
@@ -28,6 +30,7 @@ cr\ac\una\solitario_spider\model\PuntajeHistorico.class
 cr\ac\una\solitario_spider\util\BindingUtils$1.class
 cr\ac\una\solitario_spider\util\Mensaje.class
 cr\ac\una\solitario_spider\controller\InicioViewController$1.class
+cr\ac\una\solitario_spider\model\CartaDto.class
 cr\ac\una\solitario_spider\model\Partida.class
 cr\ac\una\solitario_spider\controller\LogInController.class
 cr\ac\una\solitario_spider\controller\JuegoViewController.class
