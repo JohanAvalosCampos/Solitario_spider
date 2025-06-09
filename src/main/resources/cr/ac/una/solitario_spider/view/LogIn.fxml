@@ -8,15 +8,15 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="344.0" prefWidth="609.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cr.ac.una.solitario_spider.controller.LogInController">
+<AnchorPane id="AnchorPane" fx:id="root" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="344.0" prefWidth="609.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="cr.ac.una.solitario_spider.controller.LogInController">
    <children>
       <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
-            <ImageView fx:id="imvFondo" fitHeight="401.0" fitWidth="609.0" pickOnBounds="true" preserveRatio="true">
+<!--            <ImageView fx:id="imvFondo" fitHeight="401.0" fitWidth="609.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../resource/joker-cards-playing-cards-wallpaper-e940488db17aedcb4697f85f40d1868d.jpg" />
                </image>
-            </ImageView>
+            </ImageView>-->
             <JFXTextField fx:id="txtNombre" focusColor="#171717" labelFloat="true" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="25.0" prefWidth="241.0" promptText="Nombre" style="-fx-background-color: white;" translateX="-160.0" translateY="140.0">
                <font>
                   <Font size="14.0" />

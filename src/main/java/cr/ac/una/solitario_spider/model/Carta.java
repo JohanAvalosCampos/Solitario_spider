@@ -19,20 +19,20 @@ public class Carta
     private Integer numero;
     private String simbolo;
     private String color;
-    private boolean mover;
+    private boolean bocaArriba; 
     
 
     
 
   
 
-    public Carta(String imagen, Integer numero, String simbolo, String color, boolean mover)
+    public Carta(int numero1, String imagen, String simbolo, boolean bocaArriba)
     {
         this.imagen = new Image(imagen);
         this.numero = numero;
         this.simbolo = simbolo;
         this.color = color;
-        this.mover = mover;
+        this.bocaArriba = bocaArriba;
     }
 
     public Image getImagen() 
@@ -74,15 +74,17 @@ public class Carta
     {
         this.color = color;
     }
-      public boolean isMover() 
+      public boolean isBocaArriba() 
       {
-        return mover;
+        return bocaArriba;
     }
 
-    public void setMover(boolean mover)
+    public void setBocaArriba(boolean bocaArriba)
     {
-        this.mover = mover;
+        this.bocaArriba = bocaArriba;
     }
-    
+    public void voltear(){
+     bocaArriba = !bocaArriba;
+    }
    
 }

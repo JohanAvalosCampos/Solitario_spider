@@ -7,6 +7,7 @@ package cr.ac.una.solitario_spider.controller;
 
 import cr.ac.una.solitario_spider.model.Carta;
 import cr.ac.una.solitario_spider.model.Mazo;
+import cr.ac.una.solitario_spider.model.Partida;
 import cr.ac.una.solitario_spider.util.AppContext;
 
 import java.io.File;
@@ -14,6 +15,7 @@ import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
 import javafx.application.Platform;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -49,7 +51,7 @@ import javafx.scene.text.Font;
 /**
  * FXML Controller class
  *
- * @author kevin y joshua
+ * @author 
  */
   
 public class JuegoViewController extends Controller implements Initializable {
@@ -63,6 +65,7 @@ public class JuegoViewController extends Controller implements Initializable {
     private double d;
     private boolean cara;
     private Button btnMazo;
+    private boolean victory =false;
     int minutos = 0,
         segundos = 0,
         horas = 0,
@@ -78,12 +81,13 @@ public class JuegoViewController extends Controller implements Initializable {
     
    // public Label LabelCrono;
     Label LabelCrono = new Label();
-
+    Partida partida;
     public ArrayList columnas = new ArrayList();
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        Audio("halo.mp3");
-     
+         this.partida =new Partida();
+        Audio("Grasswalk.mp3");
+        
         ImageView Fondos =new ImageView();
         Fondos.setImage(AppContext.getInstance().getFondo());
         Fondos.fitHeightProperty().bind(Pane.heightProperty());
@@ -150,8 +154,10 @@ public class JuegoViewController extends Controller implements Initializable {
                 {
                     break;
                 }
-                
+                Carta carta0 = mazo.getCarta();
                 ImageView carta1 = new ImageView();
+                carta1.setImage(carta0.getImagen());
+                carta1.setUserData(carta0);
                 carta1.setId("carta1");
                 carta1.setFitHeight(100);
                 carta1.setFitWidth(70);
@@ -165,7 +171,7 @@ public class JuegoViewController extends Controller implements Initializable {
                 }
                 if(x>=4 && y==4)
                 {
-                     Carta carta0 = mazo.getCarta();
+                     
                    
                     carta1.setImage(carta0.getImagen()); 
                     cara = true;
@@ -183,7 +189,7 @@ public class JuegoViewController extends Controller implements Initializable {
                     {
                     if(y==5)
                     {
-                         Carta carta0 = mazo.getCarta();
+                         
                          carta1.setImage(carta0.getImagen());
                          cara = true;
                     }
@@ -220,12 +226,16 @@ public class JuegoViewController extends Controller implements Initializable {
                 
                 for(int l=1;l==1;l++)
                 {
+                    Carta carta0 = mazo.getCarta();
                     ImageView carta1 = new ImageView();
+                    
+                    carta1.setImage(carta0.getImagen());
+                    carta1.setUserData(carta0);
                     carta1.setFitHeight(100);
                     carta1.setFitWidth(70); 
                     this.colu.setMargin(carta1,new Insets(-60, 0, 0, 0));
                  
-                    Carta carta0 = mazo.getCarta();  
+                      
                     carta1.setImage(carta0.getImagen()); 
                     cara = true;
                     Drag(carta1);
@@ -363,14 +373,7 @@ public class JuegoViewController extends Controller implements Initializable {
         });
         t1.start();
     }
-
-
-
     
-
-  
-   
-
 }
 
   

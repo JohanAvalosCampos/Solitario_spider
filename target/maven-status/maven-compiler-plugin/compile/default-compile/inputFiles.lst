@@ -1,17 +1,25 @@
-C:\Users\Extreme PC\Documents\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\AppContext.java
-C:\Users\Extreme PC\Documents\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\BindingUtils.java
-C:\Users\Extreme PC\Documents\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\controller\Controller.java
-C:\Users\Extreme PC\Documents\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\FlowController.java
-C:\Users\Extreme PC\Documents\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\controller\Dificultad_Palos_ViewController.java
-C:\Users\Extreme PC\Documents\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\LocalDateAdapter.java
-C:\Users\Extreme PC\Documents\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\App.java
-C:\Users\Extreme PC\Documents\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\controller\AyudaController.java
-C:\Users\Extreme PC\Documents\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\Carta.java
-C:\Users\Extreme PC\Documents\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\Mazo.java
-C:\Users\Extreme PC\Documents\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\Mensaje.java
-C:\Users\Extreme PC\Documents\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\Respuesta.java
-C:\Users\Extreme PC\Documents\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\Formato.java
-C:\Users\Extreme PC\Documents\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\controller\JuegoViewController.java
-C:\Users\Extreme PC\Documents\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\controller\LogInController.java
-C:\Users\Extreme PC\Documents\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\controller\InicioViewController.java
-C:\Users\Extreme PC\Documents\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\LocalDateTimeAdapter.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\controller\LogInController.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\Formato.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\Jugador.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\Mensaje.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\Mazo.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\Partida.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\EstadoPartida.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\Respuesta.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\EscaleraCompletada.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\PuntajeHistorico.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\FlowController.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\LocalDateAdapter.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\AppContext.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\controller\AyudaController.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\BindingUtils.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\controller\JuegoViewController.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\controller\Controller.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\Carta.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\CartaEnJuego.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\Carta_1.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\controller\Dificultad_Palos_ViewController.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\model\Movimiento.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\util\LocalDateTimeAdapter.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\App.java
+C:\Users\USUARIO\Documents\GitHub\Solitario_spider\src\main\java\cr\ac\una\solitario_spider\controller\InicioViewController.java

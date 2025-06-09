@@ -94,7 +94,7 @@ public class Dificultad_Palos_ViewController extends Controller implements Initi
         fondo1.setId("fondo1");
         fondo1.setFitHeight(30);
         fondo1.setFitWidth(30);
-        Image image = new Image("/cr/ac/una/solitario_spider/resource/ladrillo.jpg");
+        Image image = new Image("/cr/ac/una/solitario_spider/resource/spiderForest.gif");
         fondo1.setImage(image);
         lupa(fondo1, image, 50, 270, rood);
         
@@ -104,7 +104,7 @@ public class Dificultad_Palos_ViewController extends Controller implements Initi
         fondo2.setId("fondo2");
         fondo2.setFitHeight(30);
         fondo2.setFitWidth(30);
-        Image image2 = new Image("/cr/ac/una/solitario_spider/resource/madera.jpg");
+        Image image2 = new Image("/cr/ac/una/solitario_spider/resource/starNight.gif");
         fondo2.setImage(image2);
         lupa(fondo2, image2, 50, 315,rood);
         rood.getChildren().add(fondo2);
@@ -113,7 +113,7 @@ public class Dificultad_Palos_ViewController extends Controller implements Initi
         fondo3.setId("fondo3");
         fondo3.setFitHeight(30);
         fondo3.setFitWidth(30);
-        Image image3 = new Image("/cr/ac/una/solitario_spider/resource/Azul1.jpg");
+        Image image3 = new Image("/cr/ac/una/solitario_spider/resource/Hallow.gif");
         fondo3.setImage(image3);
         lupa(fondo3, image3, 50, 360, rood);
         rood.getChildren().add(fondo3);
@@ -149,7 +149,7 @@ public class Dificultad_Palos_ViewController extends Controller implements Initi
         fondo7.setId("fondo7");
         fondo7.setFitHeight(30);
         fondo7.setFitWidth(30);
-        Image image7 = new Image("/cr/ac/una/solitario_spider/resource/araña.jpg");
+        Image image7 = new Image("/cr/ac/una/solitario_spider/resource/Desert.gif");
         fondo7.setImage(image7);
         lupa(fondo7, image7, 200, 270, rood);
         rood.getChildren().add(fondo7);
@@ -158,7 +158,7 @@ public class Dificultad_Palos_ViewController extends Controller implements Initi
         fondo8.setId("fondo8");
         fondo8.setFitHeight(30);
         fondo8.setFitWidth(30);
-        Image image8 = new Image("/cr/ac/una/solitario_spider/resource/Araña2.jpg");
+        Image image8 = new Image("/cr/ac/una/solitario_spider/resource/VaporwaveBackground.gif");
         fondo8.setImage(image8);
         lupa(fondo8, image8, 200, 315, rood);
         rood.getChildren().add(fondo8);
@@ -167,7 +167,7 @@ public class Dificultad_Palos_ViewController extends Controller implements Initi
         fondo9.setId("fondo9");
         fondo9.setFitHeight(30);
         fondo9.setFitWidth(30);
-        Image image9 = new Image("/cr/ac/una/solitario_spider/resource/Araña1.jpg");
+        Image image9 = new Image("/cr/ac/una/solitario_spider/resource/Telaraña.gif");
         fondo9.setImage(image9);
         lupa(fondo9, image9, 200, 360, rood);
         rood.getChildren().add(fondo9);
